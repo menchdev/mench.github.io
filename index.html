@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Armen Sargsyan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Մենչ</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">Իմ մասին</a></li>
+          <li><a href="#skills">Հմտություններ</a></li>
+          <li><a href="#contact">Կապ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title animate-title">Ողջույն, ես Մենչն եմ</h1>
+      <p class="hero-subtitle animate-subtitle">Front-end ծրագրավորող</p>
+      <p class="hero-description animate-description">Ստեղծում եմ մաքուր, արագ և գրավիչ վեբ կայքեր։</p>
+      <div class="hero-buttons">
+        <button class="primary-btn" onclick="scrollToSection('contact')">Կապ հաստատել</button>
+        <button class="secondary-btn" onclick="scrollToSection('skills')">Իմ հմտությունները</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="mench-hero.jpg" alt="Mench" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title animate-title">Իմ մասին</h2>
+      <p class="about-text animate-description">
+        Ես Արմեն Սարգսյանն եմ։<br><br>
+        Սովորել եմ <strong>Full Learning</strong>-ում՝ որպես վեբ ծրագրավորող՝ մասնագիտանալով <strong>Front-end</strong> մշակման մեջ։<br><br>
+        Տիրապետում եմ <span class="highlight">HTML</span>, <span class="highlight">CSS</span> և <span class="highlight">JavaScript</span>, ինչպես նաև ծանոթ եմ <span class="highlight">Git</span>-ի աշխատանքին։<br><br>
+        Այս կայքը ստեղծել եմ որպես անձնական պորտֆոլիո՝ ապագայում ներկայացնելու իմ նախագծերը։ Ես հավատում եմ <strong>կայուն աճին</strong>, <strong>թիմային աշխատանքին</strong> և <strong>մաքուր կոդին</strong>։
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title animate-title">Իմ հմտությունները</h2>
+      <div class="skills-list">
+        <div class="skill-card animate-skill"><h3>HTML5</h3><p>Կառուցվածքային մաքուր նշագրում կայքի հիմքի համար։</p></div>
+        <div class="skill-card animate-skill"><h3>CSS3</h3><p>Պատասխանատու դիզայն և ճկուն դասավորություններ։</p></div>
+        <div class="skill-card animate-skill"><h3>JavaScript</h3><p>Դինամիկություն և ինտերակտիվություն կայքի համար։</p></div>
+        <div class="skill-card animate-skill"><h3>Git</h3><p>Տարբերակների վերահսկում և թիմային համագործակցություն։</p></div>
+        <div class="skill-card animate-skill"><h3>Figma</h3><p>Մակետների ուսումնասիրություն և դիզայնի հետ սերտ աշխատանք։</p></div>
+        <div class="skill-card animate-skill"><h3>React (շուտով)</h3><p>Ժամանակակից բարդ ինտերֆեյսերի կառուցում։</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title animate-title">Կապ հաստատեք</h2>
+      <p class="contact-text animate-contact">Պատրաստ եմ համագործակցության, նախագծերի կամ գաղափարների քննարկման համար։</p>
+      <div class="contact-methods">
+        <div class="contact-item animate-contact"><span>Էլ․ հասցե</span><a href="mailto:menchsargsyann333@gmail.com">menchsargsyann333@gmail.com</a></div>
+        <div class="contact-item animate-contact"><span>Հեռախոս</span><a href="tel:+37477888121">+374 77 88 81 21</a></div>
+        <div class="contact-item animate-contact"><span>Telegram</span><a href="https://t.me/karginuser" target="_blank">@karginuser</a></div>
+        <br>
+        <br>
+        © 2025 Մենչ
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
